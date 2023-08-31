@@ -1,0 +1,99 @@
+<!--Created by Nishwitha Kappuluri-->
+<!--31/07/2023-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maunga club hire</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.7.0.js"
+  integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+  crossorigin="anonymous"></script>
+    <script src="style.js"></script>
+</head>
+<body>
+    <!--Creating a div which all content is placed inside-->
+    <div id="web">
+        <!--snow image acting as the header of the website-->
+        <div id="image">
+            <img src="Images/Maunga%20Club%20Images/lovepik-plateau-snow-mountain-picture_501614517.jpg" alt="Snow mountain pic">
+        </div>
+
+        <!--Creating the navbar with all the contents-->
+        <nav id="navbar">
+            <ul>
+                <li><img src="Images/Maunga%20Club%20Images/Maunga_Club_white.png" id="logo" alt="logo"><li>
+                <li><a href="Index.html" style="text-decoration: none;"><h3 id="Home" style="width: fit-content;opacity: 1;">HOME</h3></a><li>
+                <li><a href="membership.html" style="text-decoration: none;"><h3 id="member" style="width: fit-content;">MEMBERSHIP</h3></a><li>
+            </ul>
+
+            <div id="dropdown" style="width: fit-content;">
+                <a href="stay.html" style="text-decoration: none;"><h3 style="width:fit-content" id="stay">STAY</h3></a>
+                <div id="dropdown-cont" style="width: fit-content;">
+                    <a href="stay.html#home1" style="text-decoration: none;color: white;"><h4 >Kākāpo</h4></a>
+                    <a href="stay.html#home2" style="text-decoration: none;color: white;"><h4 >Pūkeko</h4></a>
+                    <a href="stay.html#home3" style="text-decoration: none;color: white;"><h4 >Kererū</h4></a>
+                </div>
+            </div>
+            
+        </nav>
+
+        <!--Creating a heading for the website-->
+        <div ID="div1">
+            <h1 id="Maunga" >MAUNGA</h1>
+          <div id="div2">
+            <h1 id="Club" >CLUB</h1>
+          </div>
+        </div>
+
+        <div id="experience">
+            <h1>Join us <br>for a new experience!</h1>
+            <p>Welcome to Maunga Club Hire, we offer 550acres of winter thrills for all snow entusiants, have you own adventure with sking and sbowboarding. We also consists of 3 wonderful cabins for you, your family and friends. Immerse yourself in these cozy cabins for a wonderful night after an exciting day at the slopes.</p>
+        </div>
+        
+        <!--creating a slideshow for the home page that will consists of all the different types of cabins available-->
+        <div id="slideshow">
+            <button id="right">☛</button>
+            <div id="slide1">
+                <img src="Images/Maunga%20Club%20Images/kakapo/cabin_exterior.jpg" alt="kakapo cabin">
+                <h1>Kākāpo</h1>
+                <hr>
+                <form style="display: inline" action="stay.html#home1" method="get"><button>BOOK NOW!</button></form>
+            </div>
+
+            <div id="slide2">
+                <img src="Images/Maunga%20Club%20Images/pukeko/chalet_exterior.jpg" alt="pukeko cabin">
+                <h1>Pūkeko</h1>
+                <hr>
+                <form style="display: inline" action="stay.html#home2" method="get"><button>BOOK NOW!</button></form>
+            </div>
+
+            <div id="slide3">
+                <img src="Images/Maunga%20Club%20Images/kereru/cabin_exterior.jpg" alt="keruru cabin">
+                <h1>Kererū</h1>
+                <hr>
+                <form style="display: inline" action="stay.html#home3" method="get"><button>BOOK NOW!</button></form>
+            </div>
+           <button id="left">☚</button>
+          
+
+        </div>
+
+        <!--contact us page-->
+
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any quesries or questions about accomidations and booking, please contact us using the email below.</p>
+            <form style="display: inline" action="mailto:maungaclub@maungaclub.maungaclub" method="get">
+                <button id="contactus" >CONTACT US</button>
+            </form>
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>

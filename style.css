@@ -1,0 +1,364 @@
+/*created by nishwitha kappuluri*/
+/*1/08/23*/
+
+/*Designing the web*/
+#web{
+    border-style: outset;
+    border-color: black;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px; 
+    
+}
+
+#image{
+    width: 100%;
+    height: 600px;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+@keyframes run{
+    from{left: -1200px;}
+    to{left: 0px;}
+}
+
+@keyframes run2{
+    from{left: -1200px;}
+    to{left: 0px;}
+}
+/*Creating a navigation bar*/
+
+#navbar{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    bottom: 550px;
+    background-color:  rgba(28, 43, 66, 0.7);
+    z-index: 2; 
+}
+
+/*designing the list items which are the contents within the nav bar*/
+ul{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+ul li{
+    display: inline-block;
+    
+}
+
+ul li h3{
+    position: relative;
+    bottom: 58px;
+    right: 200px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#navbar img{
+    width: 18%;
+    height: 100%;
+    float: left;
+    position: relative;
+    right: 40px;
+    
+}
+
+#Home{
+    height: 50%;
+    position: relative;
+    right: 280px;
+
+}
+
+#member{
+    height: 50%;
+    position:relative;
+    right: 110px;
+}
+
+/*working on the dropdown box for the stay content*/
+
+#dropdown{
+    position: relative;
+    left: 380px;
+    bottom: 117px;
+}
+
+#stay{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+#dropdown-cont{
+    display: none;
+    color: white;
+    position: relative;
+    z-index: 5;
+    background-color:  rgba(28, 43, 66);
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+
+#dropdown-cont a h4:hover{
+    color:  rgb(126, 195, 209);
+}
+
+#dropdown:hover #dropdown-cont{
+    display: block;
+}
+
+/*WORKING ON THE MAUNGA CLUB HEADING FOR WEBSITE*/
+
+h1{
+    font-family:monospace ;font-size: 70px;
+    z-index: 2;
+    color: rgba(28, 43, 66);
+    font-size: 150px;
+    
+}
+
+#div1{
+    margin-top: -580px;
+    margin-left: -300px;
+}
+
+#div2{
+    margin-top: -140px;
+    margin-left: 600px;
+}
+
+
+/*styling the starting statment and all the informations*/
+
+#experience h1{
+    font-size: 50px;
+    font-family:monospace;
+    color: rgba(28, 43, 66);
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+#experience{
+    width: 400px;
+    margin-bottom: -50px;
+    padding-top: 10px;
+}
+
+#experience p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    width: 600px;
+    text-align: left;
+    margin-left: 620px;
+    margin-top: -210px;
+
+}
+
+/*styling the slideshow*/
+#slideshow{
+    background-color:rgba(28, 43, 66) ;
+    margin-top: 80px;
+    
+}
+
+/*styling slide1*/
+#slide1{
+    background-color: white;
+    margin: 30px;
+    height: 450px;
+    position: relative;
+    z-index: 1;
+    
+}
+#slide1 img{
+    width: 300px;
+    margin-top: 25px;
+    margin-left: -600px;
+}
+
+#slide1 h1{
+    margin-top: -300px;
+    font-size: 80px;
+    margin-left: 200px;
+}
+
+#slide1 hr{
+    width: 300px;
+    margin-left: 530px;
+    margin-top: -50px;
+}
+#slide1 button{
+    padding: 10px 50px;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: white;
+    border-style: outset;
+    margin-top: 30px;
+    z-index: 2;
+    margin-left: 200px;
+    
+    
+
+}
+
+#slide1 button:hover{
+    padding: 15px 55px;
+}
+
+/*styling slide2*/
+#slide2{
+    background-color: white;
+    height: 450px;
+    margin: 30px;
+    margin-top: -500px;
+    position: relative;
+    z-index: 0;
+    
+}
+#slide2 img{
+    width: 400px;
+    margin-top: 80px;
+    margin-left: -500px;
+    
+}
+
+#slide2 h1{
+    margin-left: 300px;
+    margin-top: -250px;
+    font-size: 80px;
+   
+}
+
+#slide2 hr{
+    width: 300px;
+    margin-left: 580px;
+    margin-top: -50px;
+}
+    
+
+#slide2 button{
+    padding: 10px 50px;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: white;
+    border-style: outset;
+   margin-left: 300px;
+   margin-top: 30px;
+     
+
+}
+
+#slide2 button:hover{
+    padding: 15px 55px;
+}
+
+/*styling slide2*/
+#slide3{
+    background-color: white;
+    height: 450px;
+    margin: 30px;
+    margin-top: -500px;
+    position: relative;
+    z-index: 0;
+  
+    
+}
+#slide3 img{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: -500px;
+   
+    
+}
+
+#slide3 h1{
+    font-size: 80px;
+    margin-top: -250px;
+    margin-left: 300px;
+}
+
+#slide3 hr{
+    width: 300px;
+    margin-left: 580px;
+    margin-top: -50px;
+}
+    
+
+#slide3 button{
+    padding: 10px 50px;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: white;
+    border-style: outset;
+   margin-left: 300px;
+   margin-top: 30px;
+   
+     
+
+}
+
+#slide3 button:hover{
+    padding: 15px 55px;
+}
+
+#right{
+    position: relative;
+    top: 300px;
+    left: 520px;
+    z-index: 10;
+    font-size: 100px;
+    background-color: white;
+    color: rgba(28, 43, 66);
+    border: none;
+}
+
+#left{
+    position: relative;
+   bottom: 300px;
+   right: 520px;
+    z-index: -1;
+    font-size: 100px;
+    background-color: white;
+    color: rgba(28, 43, 66);
+    border: none;
+}
+
+/*styling the footer that will consist of all the contact info*/
+
+#contact h2{
+    font-size: 50px;
+    font-family:monospace ;
+    z-index: 2;
+    color: rgba(28, 43, 66);
+}
+
+#contact p{
+    margin-top: -30px;
+}
+#contactus{
+    padding: 10px 50px;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: white;
+    border-style: outset;
+    margin-bottom: 10px;
+   
+     
+
+}
+
+#contactus:hover{
+    padding: 15px 55px;
+}
